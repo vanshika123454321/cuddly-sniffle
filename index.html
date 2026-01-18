@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vanshika Sinha</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style2.css" />
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav class="navbar">
+          <div class="max-width">
+            <div class="logo">
+              <a href="#">PORT<span>FOLIO</span></a>
+            </div>
+            <div class="container-menu">
+              <ul class="menu" id="sidemenu">
+              <li><a href="#home" class="menu-btn">Home</a></li>
+              <li><a href="#about" class="menu-btn">About</a></li>
+              <li><a href="#education" class="menu-btn">Education</a></li>
+              <li><a href="#skills" class="menu-btn">Skills</a></li>
+              <li><a href="#contact" class="menu-btn">Contact</a></li>
+              <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-bars" onclick="openmenu()"></i>
+            </div>
+            
+          </div>
+        </nav>
+        <div class="header-text">
+          <p>Hello, I am</p>
+          <h1><span>Vanshika Sinha</span></h1>
+          <p>and I am a Programmer</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- about section start -->
+    <section class="about" id="about">
+      <div id="about">
+        <div class="container">
+          <div class="row">
+            <div class="about-col-1">
+              <img src="vanshika.jpg" alt="" />
+            </div>
+            <div class="about-col-2">
+              <h1 class="sub-title">About Me</h1>
+              <div class="text">
+                <h3>I'm Vanshika and I'm a <span>programmer</span></h3>
+              </div>
+              <p class="intro">
+                I'm currently a second year student of GIETU, and I'm currently
+                pursuing my B.Tech degree in the domain of Computer Science and
+                Engineering. I have a good command over programming. I am
+                interested in Web Development, AI &amp; ML and Cloud Computing.
+              </p>
+              <div class="tab-titles">
+                <p
+                  class="tab-links active-link"
+                  onclick="opentab('achievements')"
+                >
+                  Achievements
+                </p>
+                <p class="tab-links" onclick="opentab('projects')">Projects</p>
+                <p class="tab-links" onclick="opentab('experiences')">
+                  Experiences
+                </p>
+              </div>
+              <div class="tab-contents active-tab" id="achievements">
+                <ul>
+                  <li>
+                    Obtained national level 2<sup>nd</sup> award in
+                    International Cyber Olympiad
+                  </li>
+                  <li>
+                    Achieved cash prize of 500 rupees in International Reasoning
+                    Olympiad
+                  </li>
+                  <li>Won awards for public debates and speech</li>
+                  <li>Led a group to achieve a goal ahead of time</li>
+                </ul>
+              </div>
+              <div class="tab-contents" id="projects">
+                <ul>
+                  <li>
+                    <span>Portfolio Website</span><br />A personal portfolio
+                    website to showcase my skills and projects.
+                  </li>
+                  <br />
+                  <li>
+                    <span>Blog Application</span><br />A blogging platform built
+                    using MERN stack for writing and sharing articles.
+                  </li>
+                </ul>
+              </div>
+              <div class="tab-contents" id="experiences">
+                <ul>
+                  <li>
+                    <span>InternPE</span><br />Internship under the domain of
+                    Web Development.
+                  </li>
+                  <br />
+                  <li>
+                    <span>Edu-Versity</span><br />Internship under the domain of
+                    Artificial Intelligence.
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--education section start-->
+    <section class="education" id="education">
+      <div class="max-width">
+        <h1 class="sub-title">My Education</h1>
+        <div class="box-container">
+          <div class="box">
+            <i class="fas fa-graduation-cap"></i>
+            <span>2021-22</span>
+            <h3>Class 10</h3>
+            <p>Completed My Class 10 From DALMIA VIDYA MANDIR, Rajgangpur</p>
+          </div>
+
+          <div class="box">
+            <i class="fas fa-graduation-cap"></i>
+            <span>2022-24</span>
+            <h3 class="box-h3">Class 12</h3>
+            <p class="box-p">
+              Completed My Class 12 From DALMIA VIDYA MANDIR, Rajgangpur
+            </p>
+          </div>
+
+          <div class="box">
+            <i class="fas fa-graduation-cap"></i>
+            <span>2024-28</span>
+            <h3>B.Tech</h3>
+            <p>
+              Pursuing B.Tech at G.I.E.T UNIVERSITY, Gunupur under the domain of
+              Computer Science and Engineering
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--skills section start-->
+    <section class="skills" id="skills">
+      <div>
+        <h1 class="sub-title"> My Skills</h1>
+      </div>
+      <div class="stext">
+        <p>
+          I am skilled in languages such as C, Python and Java. I like spending
+          my time in coding and problem solving. I am a keen enthusiast in the
+          field of web development. I have created some of the projects in these
+          domains to apply my knowledge well.
+        </p>
+      </div>
+      <div class="card-container">
+        <div class="c card">
+          <h2>C</h2>
+          <img src="C.png" alt="" />
+          <p><span>80%</span></p>
+        </div>
+        <div class="python card">
+          <h2>Python</h2>
+          <img src="Python.jpg" alt="" />
+          <p><span>70%</span></p>
+        </div>
+        <div class="java card">
+          <h2>Java</h2>
+          <img src="Java.jpg" alt="" />
+          <p><span>80%</span></p>
+        </div>
+        <div class="web-dev card">
+          <h2>Web Development</h2>
+          <img src="webdev.jpg" alt="" />
+          <p><span>80%</span></p>
+        </div>
+        <div class="mysql card">
+          <h2>MySQL</h2>
+          <img src="mysql.png" alt="" />
+          <p><span>60%</span></p>
+        </div>
+      </div>
+    </section>
+    <!-- contact section start -->
+    <h1 class="sub-title cont"> Contact me</h1>
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h2>Get in Touch</h2>
+            <p>
+              <i class="fa-solid fa-user" style="color: #dc143c"></i>
+              Name <br />
+              Vanshika Sinha
+            </p>
+            <p>
+              <i class="fa-solid fa-location-dot" style="color: #dc143c"></i>
+              Address <br />Rajgangpur,Sundargarh,Odisha PIN - 770017
+            </p>
+
+            <p>
+              <i class="fa-solid fa-envelope" style="color: #dc143c"></i>
+              Email <br />
+              <div class="email">vanshikasinha97@gmail.com</div>
+              
+            </p>
+          </div>
+          <div class="contact-right">
+            <form action="https://formspree.io/f/xvgbyljd" method="post">
+              <input type="text" name="Name" placeholder="Name" required />
+              <input type="email" name="Email" placeholder="Email" required />
+              <textarea
+                name="Message.."
+                rows="6"
+                placeholder="Message.."
+              ></textarea>
+              <button type="submit" class="btn btn2">Send Message</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Social Handle section start-->
+    <section>
+      <div class="social">
+        <a href="https://www.facebook.com/share/19fAHFfpFa/" target="_blank">
+          <i class="fa-brands fa-facebook"></i>
+        </a>
+        <a href="www.linkedin.com/in/vanshika-sinha-544b79368" target="_blank">
+          <i class="fa-brands fa-linkedin"></i>
+        </a>
+        <a href="https://t.me/van_shika_07" target="_blank">
+          <i class="fa-brands fa-telegram"></i>
+        </a>
+        <a href="https://www.instagram.com/vanshika_sinha_07/" target="_blank">
+          <i class="fa-brands fa-instagram"></i>
+        </a>
+        <a
+          href="https://x.com/van_shika_07?t=sN2PT3457EmF8lc1mKRyQA&s=08 "
+          target="_blank"
+        >
+          <i class="fa-brands fa-x-twitter"></i>
+        </a>
+      </div>
+    </section>
+    <footer>
+      <span
+        >Created By VANSHIKA SINHA | <span class="far fa-copyright"></span> 2025
+        All rights reserved.</span
+      >
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
